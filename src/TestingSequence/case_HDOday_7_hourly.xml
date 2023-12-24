@@ -1,0 +1,1768 @@
+<html_data><content>&lt;!DOCTYPE html&gt;
+&lt;html lang="cs" xml:lang="cs" xmlns="http://www.w3.org/1999/xhtml"&gt;
+ &lt;head&gt;
+  &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"/&gt;
+  &lt;link href="https://www.ote-cr.cz/cs/dobe-trhy/elektrina/denni-trh" hreflang="cs" rel="alternate"/&gt;
+  &lt;link href="https://www.ote-cr.cz/en/term-markets/electricity/day-ahead-market" hreflang="en" rel="alternate"/&gt;
+  &lt;link href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh" rel="canonical"/&gt;
+  &lt;link href="https://www.ote-cr.cz/cs/@@search" rel="search" title="Prohledejte portál"/&gt;
+  &lt;link data-bundle="production" href="https://www.ote-cr.cz/++plone++production/++unique++2018-11-13T14:45:38.108575/default.css" rel="stylesheet" type="text/css"/&gt;
+  &lt;link data-bundle="ote-theme-bundle" href="https://www.ote-cr.cz/++plone++static/++unique++2022-11-22%2019%3A44%3A19.179395/ote-theme-bundle-compiled.css" rel="stylesheet" type="text/css"/&gt;
+  &lt;link data-bundle="diazo" href="https://www.ote-cr.cz//++theme++pubweb-theme/less/theme.css" rel="stylesheet" type="text/css"/&gt;
+  &lt;script type="text/javascript"&gt;
+   PORTAL_URL = 'https://www.ote-cr.cz';
+  &lt;/script&gt;
+  &lt;script data-bundle="production" src="https://www.ote-cr.cz/++plone++production/++unique++2018-11-13T14:45:38.108575/default.js" type="text/javascript"&gt;
+  &lt;/script&gt;
+  &lt;script data-bundle="diazo" src="https://www.ote-cr.cz//++theme++pubweb-theme/js/theme.js" type="text/javascript"&gt;
+  &lt;/script&gt;
+  &lt;title&gt;
+   Denní trh — Čeština
+  &lt;/title&gt;
+  &lt;meta content="width=device-width, initial-scale=1.0" name="viewport"/&gt;
+  &lt;link href="/++theme++pubweb-theme/images/favicon.ico" rel="shortcut icon"/&gt;
+  &lt;link href="/++theme++pubweb-theme/images/favicon.ico" rel="apple-touch-icon"/&gt;
+  &lt;script type="text/javascript"&gt;
+   require = undefined
+    	define = undefined
+  &lt;/script&gt;
+  &lt;script src="/++theme++pubweb-theme/js/all.min.js" type="text/javascript"&gt;
+  &lt;/script&gt;
+  &lt;meta content="summary" name="twitter:card"/&gt;
+  &lt;meta content="Denní trh" name="twitter:title"/&gt;
+  &lt;meta content="OTE, a.s." property="og:site_name"/&gt;
+  &lt;meta content="Denní trh" property="og:title"/&gt;
+  &lt;meta content="website" property="og:type"/&gt;
+  &lt;meta content="" name="twitter:description"/&gt;
+  &lt;meta content="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh" name="twitter:url"/&gt;
+  &lt;meta content="https://www.ote-cr.cz/logo.png" name="twitter:image"/&gt;
+  &lt;meta content="https://www.ote-cr.cz/logo.png" property="og:image"/&gt;
+  &lt;meta content="image/png" property="og:image:type"/&gt;
+  &lt;meta content="­" property="og:description"/&gt;
+  &lt;meta content="width=device-width, initial-scale=1.0" name="viewport"/&gt;
+  &lt;meta content="Plone - http://plone.com" name="generator"/&gt;
+ &lt;/head&gt;
+ &lt;body class="template-task-report portaltype-taskreport site-cs section-kratkodobe-trhy subsection-elektrina subsection-elektrina-denni-trh icons-on thumbs-on frontend viewpermission-view userrole-anonymous pat-markspeciallinks" data-base-url="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh" data-i18ncatalogurl="https://www.ote-cr.cz/plonejsi18n" data-pat-markspeciallinks='{"external_links_open_new_window": "False","mark_special_links": "True"}' data-pat-pickadate='{"date": {"selectYears": 200}, "time": {"interval": 5 } }' data-pat-plone-modal='{"actionOptions": {"displayInModal": false}}' data-pat-tinymce='{"loadingBaseUrl": "https://www.ote-cr.cz/cs/++plone++static/components/tinymce-builded/js/tinymce", "relatedItems": {"sort_order": "ascending", "vocabularyUrl": "https://www.ote-cr.cz/cs/@@getVocabulary?name=plone.app.vocabularies.Catalog", "sort_on": "sortable_title", "folderTypes": ["Folder", "Large Plone Folder", "Plone Site", "LIF"], "rootPath": "/pubweb/cs"}, "prependToScalePart": "/@@images/image/", "linkAttribute": "UID", "prependToUrl": "/cs/resolveuid/", "imageTypes": ["Image"], "upload": {"maxFiles": 1, "currentPath": "/kratkodobe-trhy/elektrina", "initialFolder": "f0c94bdd6b88405b84c768377547f004", "baseUrl": "https://www.ote-cr.cz/cs", "uploadMultiple": false, "relativePath": "@@fileUpload", "showTitle": false}, "tiny": {"templates": {}, "content_css": "https://www.ote-cr.cz/cs/++plone++static/plone-compiled.css,https://www.ote-cr.cz/cs/++plone++static/tinymce-styles.css,https://www.ote-cr.cz/cs/++plone++static/components/tinymce-builded/js/tinymce/skins/lightgray/content.min.css,https://www.ote-cr.cz/cs/++theme++pubweb-theme/less/theme.css", "external_plugins": {}, "style_formats_merge": "True", "plugins": ["plonelink", "ploneimage", "importcss", "advlist", "code", "fullscreen", "hr", "lists", "media", "nonbreaking", "noneditable", "pagebreak", "paste", "preview", "print", "searchreplace", "tabfocus", "table", "visualchars", "wordcount"], "toolbar": "ltr rtl | undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | unlink plonelink ploneimage", "menubar": ["edit", "table", "format", "toolsview", "insert"], "importcss_file_filter": "https://www.ote-cr.cz/cs/++plone++static/tinymce-styles.css", "menu": {"insert": {"items": "link media | template hr", "title": "Insert"}, "format": {"items": "bold italic underline strikethrough superscript subscript | formats | removeformat", "title": "Format"}, "edit": {"items": "undo redo | cut copy paste pastetext | searchreplace textpattern selectall | textcolor", "title": "Edit"}, "table": {"items": "inserttable tableprops deletetable | cell row column", "title": "Table"}, "tools": {"items": "spellchecker charmap emoticons insertdatetime layer code", "title": "Tools"}, "view": {"items": "visualaid visualchars visualblocks preview fullpage fullscreen", "title": "View"}}, "browser_spellcheck": true, "entity_encoding": "raw", "style_formats": [{"classes": "table", "selector": "table", "title": "OTE table"}], "resize": "both", "formats": {"clearfix": {"classes": "clearfix", "block": "div"}, "discreet": {"inline": "span", "classes": "discreet"}}, "importcss_append": true}, "base_url": "https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh"}' data-portal-url="https://www.ote-cr.cz" data-view-url="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh" dir="ltr" id="visual-portal-wrapper"&gt;
+  &lt;section id="edit-bar" role="toolbar"&gt;
+  &lt;/section&gt;
+  &lt;div class="wrapper" id="main-content-wrapper"&gt;
+   &lt;div class="row header"&gt;
+    &lt;!-- customized header --&gt;
+    &lt;div class="container"&gt;
+     &lt;a class="logo" href="https://www.ote-cr.cz" id="header-logo"&gt;
+      &lt;div class="logo-color"&gt;
+      &lt;/div&gt;
+      &lt;div class="subtitle"&gt;
+       Spojujeme trhy a příležitosti
+      &lt;/div&gt;
+      &lt;div class="clear"&gt;
+      &lt;/div&gt;
+     &lt;/a&gt;
+     &lt;button class="navbar-toggle collapsed" data-target="#navigation-ul" data-toggle="collapse" type="button"&gt;
+      &lt;i aria-hidden="true" class="fa fa-bars"&gt;
+      &lt;/i&gt;
+      Menu
+     &lt;/button&gt;
+     &lt;div class="right-navigation" id="header-right-navigation"&gt;
+      &lt;span id="header_quick_links"&gt;
+       Pro registrované účastníky a výrobce POZE:
+      &lt;/span&gt;
+      &lt;a href="https://portal.ote-cr.cz" target="_blank"&gt;
+       &lt;i class="fa fa-key"&gt;
+       &lt;/i&gt;
+       Portál CS OTE
+      &lt;/a&gt;
+      &lt;a href="https://portal.sand.ote-cr.cz" target="_blank"&gt;
+       Sandbox
+      &lt;/a&gt;
+      &lt;!-- &lt;a href="http://www.povolenky.cz" i18n:translate="header_quick_link_allowances"&gt;Emission Trading Registry&lt;/a&gt;--&gt;
+      &lt;a href="#" id="fa-search"&gt;
+       &lt;i aria-hidden="true" class="fa fa-search"&gt;
+       &lt;/i&gt;
+      &lt;/a&gt;
+      &lt;a aria-label="Linkedin" href="https://www.linkedin.com/company/ote-cr/" id="fa-link-linkedin" target="_blank"&gt;
+       &lt;i class="fa fa-linkedin"&gt;
+       &lt;/i&gt;
+      &lt;/a&gt;
+      &lt;a href="https://www.ote-cr.cz/@@multilingual-selector/517eccd219ba4d179bb9996cae088a6d/en?date=2023-12-24&amp;amp;set_language=en" title="English"&gt;
+       EN
+      &lt;/a&gt;
+      &lt;div id="portal-searchbox" style="display: none"&gt;
+       &lt;form action="https://www.ote-cr.cz/cs/@@search" class="pat-livesearch" data-pat-livesearch="ajaxUrl:https://www.ote-cr.cz/cs/@@ajax-search" id="searchGadget_form" role="search"&gt;
+        &lt;div class="LSBox"&gt;
+         &lt;div class="input-group"&gt;
+          &lt;input class="form-control" id="searchBoxInput" name="SearchableText" placeholder="Prohledat portál" tal:attributes="value request/form/SearchableText|nothing;" title="Prohledat portál" type="text"/&gt;
+          &lt;span class="input-group-btn"&gt;
+           &lt;button class="btn btn-primary" type="submit"&gt;
+            Vyhledat
+           &lt;/button&gt;
+          &lt;/span&gt;
+         &lt;/div&gt;
+        &lt;/div&gt;
+       &lt;/form&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;nav class="row header-menu"&gt;
+    &lt;div class="collapse navbar-collapse" id="navigation-ul"&gt;
+     &lt;div class="container"&gt;
+      &lt;ul class="nav" id="portal-globalnav" role="tablist"&gt;
+       &lt;li id="portaltab-index_html"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs" title=""&gt;
+         &lt;i class="fa fa-home"&gt;
+         &lt;/i&gt;
+         &lt;span&gt;
+          Úvod
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-o-spolecnosti"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/o-spolecnosti" title=""&gt;
+         &lt;span&gt;
+          O společnosti
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-registrace-a-smlouvy"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/registrace-a-smlouvy" title=""&gt;
+         &lt;span&gt;
+          Smluvní partneři
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-risk-management"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/risk-management" title=""&gt;
+         &lt;span&gt;
+          Risk management
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li class="selected" id="portaltab-kratkodobe-trhy"&gt;
+        &lt;a class="active" href="https://www.ote-cr.cz/cs/kratkodobe-trhy" title=""&gt;
+         &lt;span&gt;
+          Krátkodobé trhy
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-statistika"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/statistika" title=""&gt;
+         &lt;span&gt;
+          Statistika
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-dokumentace"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/dokumentace" title=""&gt;
+         &lt;span&gt;
+          Dokumentace
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-zaruky-puvodu-a-povolenky"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/zaruky-puvodu-a-povolenky" title=""&gt;
+         &lt;span&gt;
+          Záruky původu a povolenky
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-poze"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/poze" title=""&gt;
+         &lt;span&gt;
+          Podpora a výrobní zdroje
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li id="portaltab-Pro media"&gt;
+        &lt;a href="https://www.ote-cr.cz/cs/Pro%20media" title=""&gt;
+         &lt;span&gt;
+          Pro média
+         &lt;/span&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+      &lt;/ul&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/nav&gt;
+   &lt;div class="row with-floating-menu" id="with-floating-menu"&gt;
+    &lt;div class="container"&gt;
+     &lt;div class="floating-menu"&gt;
+      &lt;ul id="page-pagenav"&gt;
+       &lt;li class="navTreeItem visualNoMarker navTreeItemInPath active navTreeFolderish section-elektrina"&gt;
+        &lt;a class="state-published navTreeItemInPath active navTreeFolderish contenttype-folder" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina" title=""&gt;
+         Elektřina
+        &lt;/a&gt;
+        &lt;ul class="navTree navTreeLevel1"&gt;
+         &lt;li class="navTreeItem visualNoMarker navTreeCurrentNode active section-denni-trh"&gt;
+          &lt;a class="state-published navTreeCurrentItem navTreeCurrentNode active contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh" title=""&gt;
+           Denní trh
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-multi-regional-coupling"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/multi-regional-coupling" title=""&gt;
+           Multi Regional Coupling
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-core-ptdf-a-ram"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/core-ptdf-a-ram" title=""&gt;
+           CORE - PTDF a RAM
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-krivky-sesouhlaseni"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/krivky-sesouhlaseni" title=""&gt;
+           Křivky sesouhlasení
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-spot-market-index"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/spot-market-index" title=""&gt;
+           Spot Market Index
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-vnitrodenni-trh"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/vnitrodenni-trh" title=""&gt;
+           Vnitrodenní trh
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-parametry-kratkodobych-trhu"&gt;
+          &lt;a class="state-published contenttype-document" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/parametry-kratkodobych-trhu" title=""&gt;
+           Parametry krátkodobých trhů
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-informace-vdt-vt"&gt;
+          &lt;a class="state-published contenttype-document" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/informace-vdt-vt" title=""&gt;
+           Informace VDT/VT
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-mobilni-aplikace-ote-vdt-elektro"&gt;
+          &lt;a class="state-published contenttype-document" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/mobilni-aplikace-ote-vdt-elektro" title=""&gt;
+           Mobilní aplikace OTE VDT Elektro
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-blokovy-trh"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/blokovy-trh" title=""&gt;
+           Blokový trh
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-market-coupling"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/market-coupling" title=""&gt;
+           Market Coupling 4MMC
+          &lt;/a&gt;
+         &lt;/li&gt;
+         &lt;li class="navTreeItem visualNoMarker section-vyrovnavaci-trh"&gt;
+          &lt;a class="state-published contenttype-taskreport" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/vyrovnavaci-trh" title=""&gt;
+           Vyrovnávací trh
+          &lt;/a&gt;
+         &lt;/li&gt;
+        &lt;/ul&gt;
+       &lt;/li&gt;
+       &lt;li class="navTreeItem visualNoMarker navTreeFolderish section-plyn"&gt;
+        &lt;a class="state-published navTreeFolderish contenttype-folder" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/plyn" title=""&gt;
+         Plyn
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li class="navTreeItem visualNoMarker section-remit"&gt;
+        &lt;a class="state-published contenttype-document" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/remit" title=""&gt;
+         REMIT
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li class="navTreeItem visualNoMarker navTreeFolderish section-integrace-trhu"&gt;
+        &lt;a class="state-published navTreeFolderish contenttype-folder" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/integrace-trhu" title=""&gt;
+         Integrace trhů
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li class="navTreeItem visualNoMarker navTreeFolderish section-propojeni-trhu-2013-denni-trh"&gt;
+        &lt;a class="state-published navTreeFolderish contenttype-folder" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/propojeni-trhu-2013-denni-trh" title=""&gt;
+         Propojení trhů – Denní trh
+        &lt;/a&gt;
+       &lt;/li&gt;
+       &lt;li class="navTreeItem visualNoMarker navTreeFolderish section-propojeni-trhu-2013-vnitrodenni-trh"&gt;
+        &lt;a class="state-published navTreeFolderish contenttype-folder" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/propojeni-trhu-2013-vnitrodenni-trh" title=""&gt;
+         Propojení trhů – Vnitrodenní trh
+        &lt;/a&gt;
+       &lt;/li&gt;
+      &lt;/ul&gt;
+     &lt;/div&gt;
+     &lt;div id="global_statusmessage"&gt;
+      &lt;div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div class="content"&gt;
+      &lt;article id="portal-column-content"&gt;
+       &lt;div id="portal-breadcrumbs-theme"&gt;
+       &lt;/div&gt;
+       &lt;section id="viewlet-above-content"&gt;
+        &lt;nav class="plone-breadcrumb" id="portal-breadcrumbs"&gt;
+         &lt;div class="container"&gt;
+          &lt;span class="hiddenStructure" id="breadcrumbs-you-are-here"&gt;
+           Nacházíte se zde:
+          &lt;/span&gt;
+          &lt;ol aria-labelledby="breadcrumbs-you-are-here"&gt;
+           &lt;li id="breadcrumbs-home"&gt;
+            &lt;a href="https://www.ote-cr.cz/cs"&gt;
+             Úvod
+            &lt;/a&gt;
+           &lt;/li&gt;
+           &lt;li id="breadcrumbs-1"&gt;
+            &lt;a href="https://www.ote-cr.cz/cs/kratkodobe-trhy"&gt;
+             Krátkodobé trhy
+            &lt;/a&gt;
+           &lt;/li&gt;
+           &lt;li id="breadcrumbs-2"&gt;
+            &lt;a href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina"&gt;
+             Elektřina
+            &lt;/a&gt;
+           &lt;/li&gt;
+           &lt;li id="breadcrumbs-3"&gt;
+            &lt;span id="breadcrumbs-current"&gt;
+             Denní trh
+            &lt;/span&gt;
+           &lt;/li&gt;
+          &lt;/ol&gt;
+         &lt;/div&gt;
+        &lt;/nav&gt;
+       &lt;/section&gt;
+       &lt;div&gt;
+        &lt;article id="content"&gt;
+         &lt;header&gt;
+          &lt;div id="viewlet-above-content-title"&gt;
+           &lt;span id="social-tags-body" itemscope="" itemtype="http://schema.org/WebPage" style="display: none"&gt;
+            &lt;span itemprop="name"&gt;
+             Denní trh
+            &lt;/span&gt;
+            &lt;span itemprop="description"&gt;
+            &lt;/span&gt;
+            &lt;span itemprop="url"&gt;
+             https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/denni-trh
+            &lt;/span&gt;
+            &lt;span itemprop="image"&gt;
+             https://www.ote-cr.cz/logo.png
+            &lt;/span&gt;
+           &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;h2 class="documentFirstHeading"&gt;
+           Denní trh
+          &lt;/h2&gt;
+          &lt;div id="viewlet-below-content-title"&gt;
+          &lt;/div&gt;
+         &lt;/header&gt;
+         &lt;section id="viewlet-above-content-body"&gt;
+         &lt;/section&gt;
+         &lt;section id="content-core"&gt;
+          &lt;div&gt;
+           &lt;!-- input parameters --&gt;
+           &lt;div class="datepickandsubmit report_input"&gt;
+            &lt;!-- report date --&gt;
+            &lt;span class="glyphicon glyphicon-chevron-left previous-day"&gt;
+            &lt;/span&gt;
+            &lt;input class="datepicker-here" data-min-view="days" data-view="days" readonly="readonly" type="text"/&gt;
+            &lt;span class="glyphicon glyphicon-chevron-right next-day"&gt;
+            &lt;/span&gt;
+           &lt;/div&gt;
+           &lt;!-- content --&gt;
+           &lt;div class="report_content"&gt;
+            &lt;script type="text/javascript"&gt;
+             var dataUrl = "./json.php?uri=" + encodeURI("https://www.ote-cr.cz/pubweb/cs/kratkodobe-trhy/elektrina/denni-trh/@@chart-data");
+
+                            //if true, graph objects are displayed, otherwise not
+                            var displayGraph = 24;
+                            ////server defined absolute url for chart data. Overwrites Javascript's generated URL. Do not define value, if not used.
+                            var serverDataUrl = "/cs/kratkodobe-trhy/elektrina/denni-trh/@@chart-data?report_date=2023-12-24";
+                            //minimal date for data component - do not define value, if not used
+                            var minDate = new Date(2002, 01 - 1, 01);
+                            //maximal date for data component - do not define value, if not used
+                            var maxDate = new Date(2023, 12 - 1, 25);
+
+                            var datepickerParams = {
+                                language: "cs",
+                            };
+                            
+                            //selected date in datepicker - do not define value, if not used
+                            var defaultSelectDate = new Date(2023, 12 - 1, 24);
+                
+
+                            function loadDataForDate(date) {
+
+                                var d = date.getDate();
+                                var m = date.getMonth() + 1;
+                                var y = date.getFullYear();
+                                var parsableDate = y + '-' + (m &lt;= 9 ? '0' + m : m) + '-' + (d &lt;= 9 ? '0' + d : d);
+
+                                history.pushState({}, '', changeGetParameterInUrl(window.location.href, "date", parsableDate));
+
+                                dataUrl = dataUrl + "?" + $.param({"report_date": parsableDate});
+
+                                if (serverDataUrl !== undefined) {
+                                    dataUrl = serverDataUrl;
+                                }
+
+                                if (displayGraph) {
+                                    $.get(dataUrl, function (response) {
+
+                                        var axisX = [];
+                                        var axisY = [];
+                                        var axisXlabel = response['axis']['x']['legend'];
+                                        var axisYlabels = [
+                                            response['axis']['y']['legend'],
+                                            response['axis']['y2']['legend'],
+                                        ];
+                                        var axisYnames = [];
+
+
+                                        response['data']['dataLine'].forEach(function (axisObject, axisIndex) {
+                                            if (axisIndex == 0) {
+                                                axisObject['point'].forEach(function (object, index) {
+                                                    axisX.push(object['x']);
+                                                });
+                                            }
+
+                                            axisYnames.push(axisObject['title']);
+
+                                            var tempData = [];
+
+                                            axisObject['point'].forEach(function (object, index) {
+                                                tempData.push(object['y']);
+                                            });
+
+                                            axisY.push(tempData);
+                                        });
+
+                                        renderGraph(axisY, axisX, axisXlabel, axisYlabels, axisYnames);
+
+                                    });
+                                } else {
+                                    $('.chart').hide();
+                                }
+
+                            }
+
+                            $(document).ready(function () {
+
+                                function changeUrlDateAndReload(date) {
+
+                                    var d = date.getDate();
+                                    var m = date.getMonth() + 1;
+                                    var y = date.getFullYear();
+                                    var parsable = y + '-' + (m &lt;= 9 ? '0' + m : m) + '-' + (d &lt;= 9 ? '0' + d : d);
+
+                                    document.location.href = changeGetParameterInUrl(window.location.href, "date", parsable);
+
+                                }
+                                var hammertime = new Hammer(window);
+
+                                $('.datepickandsubmit&gt;.datepicker-here').datepicker({
+                                    dateFormat: "d. MM yyyy",
+                                    autoClose: true,
+                                    onSelect: function (fd, date, picker) {
+                                        if ($_GET("date") === null || new Date($_GET("date")).getTime() == date.getTime()) {
+                                            loadDataForDate(date);
+                                        } else {
+                                            changeUrlDateAndReload(date);
+                                        }
+                                    },
+                                    onShow: function (dp, animationCompleted) {
+                                        if (!animationCompleted) {
+
+                                            hammertime.on('tap', function (ev) {
+                                                if (ev.pointerType === 'touch') {
+                                                    $('.datepickandsubmit&gt;.datepicker-here').datepicker().data('datepicker').hide();
+                                                }
+                                            });
+                                        }
+                                    },
+                                    onHide: function (dp, animationCompleted) {
+                                        if (!animationCompleted) {
+                                            hammertime.off('tap');
+                                        }
+                                    },
+                                });
+
+                                $('.datepickandsubmit &gt; .previous-day').bind('click', function () {
+
+                                    var datepicker = $(this).parent().children('input').data('datepicker');
+
+                                    var selectedDate = datepicker.lastSelectedDate;
+
+                                    selectedDate = addDays(selectedDate, -1);
+                                    datepicker.selectDate(selectedDate);
+                                });
+
+                                $('.datepickandsubmit &gt; .next-day').bind('click', function () {
+
+                                    var datepicker = $(this).parent().children('input').data('datepicker');
+
+                                    var selectedDate = datepicker.lastSelectedDate;
+
+                                    selectedDate = addDays(selectedDate, 1);
+                                    datepicker.selectDate(selectedDate);
+                                });
+
+                                $('.datepickandsubmit &gt; .open-icon').bind('click', function () {
+
+                                    $(this).parent().children('input').data('datepicker').show();
+                                });
+
+
+                                var selectedDate = $_GET("date");
+                                if (selectedDate == null) {
+                                    if (defaultSelectDate !== undefined) {
+                                        selectedDate = defaultSelectDate;
+                                    } else {
+                                        selectedDate = new Date();
+                                    }
+
+                                } else {
+                                    selectedDate = new Date(Date.parse(selectedDate));
+
+                                    if (isNaN(selectedDate.getTime())) {
+                                        if (defaultSelectDate !== undefined) {
+                                            selectedDate = defaultSelectDate;
+                                        } else {
+                                            selectedDate = new Date();
+                                        }
+                                    }
+                                }
+
+                                $('.datepickandsubmit&gt;input').data('datepicker').selectDate(selectedDate);
+
+                                if (minDate !== undefined) {
+                                    datepickerParams.minDate = minDate;
+                                }
+
+                                if (maxDate !== undefined) {
+                                    datepickerParams.maxDate = maxDate;
+                                }
+
+                                $('.datepickandsubmit&gt;input').data('datepicker').update(datepickerParams);
+
+                            });
+            &lt;/script&gt;
+            &lt;h3 class="chart_title"&gt;
+             Výsledky denního trhu ČR - 24.12.2023
+            &lt;/h3&gt;
+            &lt;div class="noselect" id="chartjs-legend"&gt;
+            &lt;/div&gt;
+            &lt;canvas class="chart" id="bigchart"&gt;
+            &lt;/canvas&gt;
+            &lt;style type="text/css"&gt;
+             canvas{
+                                -moz-user-select: none;
+                                -webkit-user-select: none;
+                                -ms-user-select: none;
+                            }
+                            #chartjs-tooltip {
+                                opacity: 1;
+                                position: absolute;
+                                background: rgba(0, 0, 0, .8);
+                                color: white;
+                                -webkit-transition: all .1s ease;
+                                transition: all .1s ease;
+                                pointer-events: none;
+                                -webkit-transform: translate(-50%, 0);
+                                transform: translate(-50%, 0);
+                                width: auto;
+                                /*max-width: 240px;
+                                min-width: 230px;*/
+                            }
+                            #chartjs-tooltip&gt;table{
+                                width: 100%;
+                            }
+
+                            .chartjs-tooltip-key {
+                                display: inline-block;
+                                width: 10px;
+                                height: 10px;
+                                margin-right: 10px;
+                            }
+            &lt;/style&gt;
+            &lt;script type="text/javascript"&gt;
+             function renderGraph(myData, myLabelData, myAxisXlabel, myAxisYlabels, myAxisYnames) {
+                                var ctx = document.getElementById("bigchart").getContext('2d');
+                                var axisLimits = getAxesLimitsForData(myData, 8, 1.15);
+
+                                var axisTemplates = [
+                                    {
+                                        borderColor: 'rgba(255, 51, 0, 1)',
+                                        borderWidth: 2,
+                                        backgroundColor: 'rgba(255, 255, 255, 1)',
+                                        fill: false,
+                                        type: 'line',
+                                        lineTension: 0,
+                                    },
+                                    {
+                                        backgroundColor: 'rgba(0, 51, 153, 1)',
+                                        borderWidth: 0,
+                                    },
+                                    {
+                                        borderColor: 'rgba(255, 51, 0, 1)',
+                                        borderWidth: 2,
+                                        backgroundColor: 'rgba(255, 255, 255, 1)',
+                                        fill: false,
+                                        type: 'line',
+                                        lineTension: 0,
+                                    },
+                                ];
+
+                                var myChart = new Chart(ctx, {
+                                    type: 'bar',
+                                    data: {
+                                        labels: myLabelData,
+                                        datasets: [],
+                                    },
+                                    options: {
+                                        legendCallback: function (chart) {
+                                            var text = [];
+                                            text.push('&lt;ul class="' + chart.id + '-legend" style="list-style-type: none; padding-left: 0px;"&gt;');
+                                            for (var i = 0; i &lt; chart.data.datasets.length; i++) {
+                                                var axis = chart.data.datasets[i];
+                                                text.push('&lt;li data-datasetIndex="' + chart.legend.legendItems[i].datasetIndex + '" onclick="updateDataset(event, ' + '\'' + chart.legend.legendItems[i].datasetIndex + '\'' + ')" class="legend-li"&gt;');
+                                                if (axis['type'] == "line") {
+                                                    text.push('&lt;div style="width: 40px; height: 15px; margin-right: 5px;border:1px solid #CCCCCC;display: inline-block;"&gt;\n\
+                                &lt;div style="height: 3px; width: 12px; background: ' + axis['borderColor'] + '; float: left; margin: 5px 0px 0px 3px;"&gt;&lt;/div&gt;\n\
+&lt;div style="border-radius: 50px; border: 2px solid ' + axis['borderColor'] + '; background: ' + axis['backgroundColor'] + '; height: 8px; width: 8px;margin: 3px 0px 0px 0px;float: left;"&gt;&lt;/div&gt;\n\
+&lt;div style="height: 3px; width: 12px; background: ' + axis['borderColor'] + ';float: right;margin: 5px 3px 0px 0px;"&gt;&lt;/div&gt;\n\
+\n\
+\n\&lt;/div&gt;');
+                                                } else {
+                                                    text.push('&lt;div style="display: inline-block; width: 40px; height: 15px; margin-right: 5px; background-color:' + axis['backgroundColor'] + '"&gt;&lt;/div&gt;');
+                                                }
+                                                if (chart.data.datasets[i].label) {
+                                                    text.push('&lt;span class="axis-name"&gt;' + chart.data.datasets[i].label + '&lt;/span&gt;');
+                                                }
+                                                text.push('&lt;/li&gt;');
+                                            }
+                                            text.push('&lt;/ul&gt;');
+                                            return text.join("");
+                                        },
+                                        legend: {
+                                            display: false,
+                                        },
+                                        tooltips: {
+                                            enabled: false,
+                                            mode: 'index',
+                                            intersect: true,
+                                            custom: function (tooltip) {
+                                                var chart = this._chart;
+                                                var tooltipEl = document.getElementById('chartjs-tooltip');
+                                                if (!tooltipEl) {
+                                                    tooltipEl = document.createElement('div');
+                                                    tooltipEl.id = 'chartjs-tooltip';
+                                                    tooltipEl.innerHTML = "&lt;table&gt;&lt;/table&gt;"
+                                                    this._chart.canvas.parentNode.appendChild(tooltipEl);
+                                                }
+
+                                                // Hide if no tooltip
+                                                if (tooltip.opacity === 0) {
+                                                    tooltipEl.style.opacity = 0;
+                                                    return;
+                                                }
+
+                                                // Set caret Position
+                                                tooltipEl.classList.remove('above', 'below', 'no-transform');
+                                                if (tooltip.yAlign) {
+                                                    tooltipEl.classList.add(tooltip.yAlign);
+                                                } else {
+                                                    tooltipEl.classList.add('no-transform');
+                                                }
+
+                                                function getBody(bodyItem) {
+                                                    return bodyItem.lines;
+                                                }
+
+                                                // Set Text
+
+                                                if (tooltip.body) {
+                                                    var titleLines = tooltip.title || [];
+                                                    var bodyLines = tooltip.body.map(getBody);
+                                                    var innerHtml = '&lt;thead&gt;';
+                                                    titleLines.forEach(function (title) {
+                                                        innerHtml += '&lt;tr&gt;&lt;th&gt;' + title + '&lt;/th&gt;&lt;/tr&gt;';
+                                                    });
+                                                    innerHtml += '&lt;/thead&gt;&lt;tbody&gt;';
+
+                                                    var correctDatasetIds = [];
+                                                    chart.legend.legendItems.forEach(function (legendItem, legendIndex) {
+                                                        if (legendItem.hidden == false) {
+                                                            correctDatasetIds.push(legendIndex);
+                                                        }
+                                                    });
+
+                                                    bodyLines.forEach(function (body, indexInArray) {
+                                                        var i = indexInArray;
+                                                        var datasetI = correctDatasetIds[indexInArray];
+
+                                                        var colors = tooltip.labelColors[i];
+                                                        var style = 'background:' + colors.backgroundColor;
+                                                        style += '; border-color:' + colors.borderColor;
+                                                        style += '; border-width: 2px';
+                                                        var axis = chart.data.datasets[datasetI];
+                                                        if (axis['type'] == "line") {
+                                                            var span = '&lt;div style="width: 40px; height: 15px; margin-right: 5px;border:1px solid #CCCCCC;display: inline-block;background: white;"&gt;&lt;div style="height: 3px; width: 12px; background: ' + axis['borderColor'] + '; float: left; margin: 5px 0px 0px 3px;"&gt;&lt;/div&gt;&lt;div style="border-radius: 50px; border: 2px solid ' + axis['borderColor'] + '; background: ' + axis['backgroundColor'] + '; height: 8px; width: 8px;margin: 3px 0px 0px 0px;float: left;"&gt;&lt;/div&gt;&lt;div style="height: 3px; width: 12px; background: ' + axis['borderColor'] + ';float: right;margin: 5px 3px 0px 0px;"&gt;&lt;/div&gt;&lt;/div&gt;';
+                                                        } else {
+                                                            var span = '&lt;div style="width: 40px; height: 15px; margin-right: 5px;border:1px solid #CCCCCC;display: inline-block;background-color:' + axis['backgroundColor'] + ';"&gt;&lt;/div&gt;';
+                                                        }
+
+                                                        if (axis['yAxisID'] == 'second-y-axis') {
+                                                            var decimalsLength = 2;
+                                                        } else {
+                                                            var decimalsLength = 1;
+                                                        }
+
+
+                                                        innerHtml += '&lt;tr&gt;&lt;td&gt;' + span + axis['label'] + ':&amp;nbsp;&amp;nbsp;' + formatNumber(body, decimalsLength, ',', ' ') + '&lt;/td&gt;&lt;/tr&gt;';
+                                                    });
+                                                    innerHtml += '&lt;/tbody&gt;';
+                                                    var tableRoot = tooltipEl.querySelector('table');
+                                                    tableRoot.style.border = "0px";
+                                                    tableRoot.innerHTML = innerHtml;
+                                                }
+
+                                                var positionY = this._chart.canvas.offsetTop;
+                                                var positionX = this._chart.canvas.offsetLeft;
+                                                // Display, position, and set styles for font
+                                                tooltipEl.style.opacity = 1;
+                                                tooltipEl.style.left = positionX + tooltip.caretX + 'px';
+                                                tooltipEl.style.top = positionY + tooltip.caretY + 'px';
+                                                tooltipEl.style.padding = tooltip.yPadding + 'px ' + tooltip.xPadding + 'px';
+                                                tooltipEl.style.borderRadius = '8px';
+                                            },
+                                            callbacks: {
+                                                title: function (tooltipItem, data) {
+                                                    return tooltipItem[0]['xLabel'] + ". hodina";
+                                                }
+                                                ,
+                                                label: function (tooltipItem, data) {
+
+
+                                                    return tooltipItem.yLabel;
+                                                }
+                                            }
+                                        },
+                                        scales: {
+                                            xAxes: [{
+                                                    ticks: {
+                                                        maxRotation: 0,
+                                                        autoSkip: false,
+                                                    },
+                                                    scaleLabel: {
+                                                        display: true,
+                                                        labelString: myAxisXlabel,
+                                                    },
+                                                    gridLines: {
+                                                        display: false,
+                                                    }
+                                                }],
+                                            yAxes: [{
+                                                    id: 'first-y-axis',
+                                                    type: 'linear',
+                                                    position: 'right',
+                                                    ticks: {
+                                                        suggestedMin: axisLimits[0]["suggestedMin"],
+                                                        suggestedMax: axisLimits[0]["suggestedMax"],
+                                                        stepSize: axisLimits[0]["stepSize"],
+                                                        callback: function (value, index, values) {
+                                                            return formatNumber(Math.floor(value), 0, ',', ' ');
+                                                        }
+                                                    },
+                                                    scaleLabel: {
+                                                        display: true,
+                                                        labelString: myAxisYlabels[1]
+                                                    }
+                                                }, {
+                                                    id: 'second-y-axis',
+                                                    type: 'linear',
+                                                    position: 'left',
+                                                    ticks: {
+                                                        suggestedMin: axisLimits[1]["suggestedMin"],
+                                                        suggestedMax: axisLimits[1]["suggestedMax"],
+                                                        stepSize: axisLimits[1]["stepSize"],
+                                                        //beginAtZero: true,
+                                                        callback: function (value, index, values) {
+                                                            var space = "";
+                                                            if (value &gt;= 0) {
+                                                                space = " ";
+                                                            }
+                                                            return space + formatNumber(value, 0, ',', ' ');
+                                                        }
+                                                    },
+                                                    scaleLabel: {
+                                                        display: true,
+                                                        labelString: myAxisYlabels[0]
+                                                    },
+                                                    gridLines: {
+                                                        display: false,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        pan: {
+                                            enabled: true,
+                                            mode: 'xy',
+                                        },
+                                        zoom: {
+                                            enabled: true,
+                                            mode: 'xy',
+                                        },
+                                    }
+                                });
+
+
+
+                                if (myData.length == 3) {
+                                    var myAxisIds = ['second-y-axis', 'first-y-axis', 'first-y-axis'];
+                                    var tempAxisTemplate = axisTemplates[1];
+                                    axisTemplates[1] = axisTemplates[0];
+                                    axisTemplates[0] = tempAxisTemplate;
+
+                                    axisTemplates[1].type = "bar";
+                                    axisTemplates[1].backgroundColor = axisTemplates[1].borderColor = 'rgba(230, 199, 21, 1)';
+
+
+                                    myData = myData.reverse();
+                                    axisTemplates = axisTemplates.reverse();
+                                    myAxisYnames = myAxisYnames.reverse();
+
+                                    myChart.options.scales.yAxes[1].ticks.suggestedMin = 0;
+                                    myChart.options.scales.yAxes[1].ticks.suggestedMax = 80;
+                                    myChart.options.scales.yAxes[1].ticks.stepSize = 10;
+
+
+                                } else {
+                                    var myAxisIds = ['second-y-axis', 'first-y-axis'];
+
+                                    var tempSwap01 = myData[1];
+                                    myData[1] = myData[0];
+                                    myData[0] = tempSwap01;
+                                    tempSwap01 = myAxisYnames[1];
+                                    myAxisYnames[1] = myAxisYnames[0];
+                                    myAxisYnames[0] = tempSwap01;
+                                }
+
+
+                                myData.forEach(function (axisObject, axisIndex) {
+
+                                    var tempObject = axisTemplates[axisIndex];
+                                    tempObject['data'] = axisObject;
+                                    tempObject['yAxisID'] = myAxisIds[axisIndex];
+                                    tempObject['label'] = myAxisYnames[axisIndex];
+                                    myChart.data.datasets.push(tempObject);
+                                });
+
+                                myChart.update();
+
+                                updateDataset = function (e, datasetIndex) {
+                                    var index = datasetIndex;
+                                    var ci = myChart;
+                                    var meta = ci.getDatasetMeta(index);
+                                    meta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;
+                                    var axisLabel = $("#chartjs-legend&gt;ul&gt;li[data-datasetIndex=" + datasetIndex + "]&gt;.axis-name");
+                                    if (!meta.hidden) {
+                                        axisLabel.css('text-decoration', 'none');
+                                    } else {
+                                        axisLabel.css('text-decoration', 'line-through');
+                                    }
+
+                                    ci.update();
+                                };
+                                $("#chartjs-legend").html(myChart.generateLegend());
+                            }
+            &lt;/script&gt;
+            &lt;!-- indexes --&gt;
+            &lt;div&gt;
+             &lt;style&gt;
+              table.seamless_table thead tr:first-child th:first-child {
+                width: 150px;
+            }
+            table.seamless_table {
+                margin: 0;
+            }
+            table.seamless_table:last-of-type {
+                margin-bottom: 20px;
+            }
+             &lt;/style&gt;
+             &lt;div class="bigtable left-sticky"&gt;
+              &lt;!-- EUR index table  --&gt;
+              &lt;table class="table report_table seamless_table"&gt;
+               &lt;!--  
+            &lt;caption tal:condition="python: show_pxe"&gt;
+                &lt;span tal:omit-tag=""&gt;SPOT MARKET INDEX&lt;/span&gt;&amp;nbsp;-&amp;nbsp;
+                &lt;span tal:omit-tag="" tal:content="python:format_utility.format_date(report_date)"&gt;&lt;/span&gt;
+            &lt;/caption&gt;
+            &lt;caption tal:condition="python: not show_pxe"&gt;
+                &lt;span tal:omit-tag="" i18n:translate="page_report_01_table_index_daily"&gt;Day-Ahead Market Indexes&lt;/span&gt;&amp;nbsp;-&amp;nbsp;
+                &lt;span tal:omit-tag="" tal:content="python:format_utility.format_date(report_date)"&gt;&lt;/span&gt;
+            &lt;/caption&gt;
+            --&gt;
+               &lt;thead&gt;
+                &lt;tr&gt;
+                 &lt;th&gt;
+                  Index
+                 &lt;/th&gt;
+                 &lt;th&gt;
+                  EUR/MWh
+                 &lt;/th&gt;
+                 &lt;th&gt;
+                  Změna (%)
+                 &lt;/th&gt;
+                 &lt;th&gt;
+                  &lt;span&gt;
+                   Celkové množství
+                  &lt;/span&gt;
+                  &lt;span&gt;
+                   ČR
+                  &lt;/span&gt;
+                  (
+                  &lt;span&gt;
+                   MWh
+                  &lt;/span&gt;
+                  )
+                 &lt;/th&gt;
+                &lt;/tr&gt;
+               &lt;/thead&gt;
+               &lt;tbody&gt;
+                &lt;tr&gt;
+                 &lt;th class="description-label"&gt;
+                  BASE LOAD
+                 &lt;/th&gt;
+                 &lt;td&gt;
+                  0,78
+                 &lt;/td&gt;
+                 &lt;!-- show procentual change --&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   97,41
+                  &lt;/span&gt;
+                  &lt;img alt="pokles" src="++plone++cgi.pubweb/images/change_down.png"/&gt;
+                 &lt;/td&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   73 167,3
+                  &lt;/span&gt;
+                  &lt;img alt="nárůst" src="++plone++cgi.pubweb/images/change_up.png"/&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                 &lt;th class="description-label"&gt;
+                  PEAK LOAD
+                 &lt;/th&gt;
+                 &lt;td&gt;
+                  0,17
+                 &lt;/td&gt;
+                 &lt;!-- show procentual change --&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   99,65
+                  &lt;/span&gt;
+                  &lt;img alt="pokles" src="++plone++cgi.pubweb/images/change_down.png"/&gt;
+                 &lt;/td&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   32 479,9
+                  &lt;/span&gt;
+                  &lt;img alt="nárůst" src="++plone++cgi.pubweb/images/change_up.png"/&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                 &lt;th class="description-label"&gt;
+                  OFFPEAK LOAD
+                 &lt;/th&gt;
+                 &lt;td&gt;
+                  1,39
+                 &lt;/td&gt;
+                 &lt;!-- show procentual change --&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   87,40
+                  &lt;/span&gt;
+                  &lt;img alt="pokles" src="++plone++cgi.pubweb/images/change_down.png"/&gt;
+                 &lt;/td&gt;
+                 &lt;td&gt;
+                  &lt;span&gt;
+                   40 687,4
+                  &lt;/span&gt;
+                  &lt;img alt="nárůst" src="++plone++cgi.pubweb/images/change_up.png"/&gt;
+                 &lt;/td&gt;
+                &lt;/tr&gt;
+               &lt;/tbody&gt;
+              &lt;/table&gt;
+             &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;br/&gt;
+            &lt;!-- data --&gt;
+            &lt;div class="bigtable left-sticky"&gt;
+             &lt;table class="table report_table"&gt;
+              &lt;!-- 
+            &lt;caption&gt;
+                &lt;span i18n:translate="page_report_01_table" tal:omit-tag="" tal:condition="python: not together_market"&gt;Day-Ahead Market Results&lt;/span&gt;
+                &lt;span i18n:translate="page_report_01_table_sr" tal:omit-tag="" tal:condition="python: together_market"&gt;Day-Ahead Market CZ Results&lt;/span&gt;
+                    -&amp;nbsp;&lt;span tal:omit-tag="" tal:content="python:format_utility.format_date(report_date)"&gt;&lt;/span&gt;
+            &lt;/caption&gt;
+             --&gt;
+              &lt;thead&gt;
+               &lt;tr&gt;
+                &lt;th rowspan="2"&gt;
+                 Hodina
+                &lt;/th&gt;
+                &lt;!-- not CZ-SK-HU --&gt;
+                &lt;!-- is CZ-SK-HU --&gt;
+                &lt;th rowspan="2"&gt;
+                 Cena
+                 &lt;br/&gt;
+                 (EUR/MWh)
+                &lt;/th&gt;
+                &lt;th rowspan="2"&gt;
+                 Množství
+                 &lt;br/&gt;
+                 (MWh)
+                &lt;/th&gt;
+                &lt;!-- is core fb mc --&gt;
+                &lt;th&gt;
+                 Saldo DT
+                 &lt;br/&gt;
+                 (MWh)
+                &lt;/th&gt;
+                &lt;th&gt;
+                 Export
+                 &lt;br/&gt;
+                 (MWh)
+                &lt;/th&gt;
+                &lt;th&gt;
+                 Import
+                 &lt;br/&gt;
+                 (MWh)
+                &lt;/th&gt;
+               &lt;/tr&gt;
+              &lt;/thead&gt;
+              &lt;tbody&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 1
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 306,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 879,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 574,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -695,1
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 2
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 398,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 958,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 404,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -445,8
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 3
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 585,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 171,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 392,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -221,3
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 4
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 629,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 905,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 023,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -118,7
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 5
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 481,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 689,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 830,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -141,0
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 6
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 390,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 708,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 923,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -215,1
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 7
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 326,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 824,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 978,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -154,9
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 8
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 073,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 619,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 817,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -197,9
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 9
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 934,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 478,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 790,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -311,9
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 10
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 881,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 314,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 659,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -344,8
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 11
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 771,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 165,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 435,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -270,0
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 12
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 785,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 191,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 545,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -354,7
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 13
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 817,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 206,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 643,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -437,1
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 14
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 633,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 030,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 565,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -535,4
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 15
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 492,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 873,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 468,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -595,1
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 16
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 391,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 638,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 313,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -675,4
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 17
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 221,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 291,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 576,5
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -1 285,0
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 18
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 374,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 559,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 606,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -1 047,1
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 19
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 942,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 331,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 998,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -666,5
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 20
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 233,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 492,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 054,2
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -561,4
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 21
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 296,1
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 358,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 154,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -795,4
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 22
+                &lt;/th&gt;
+                &lt;td&gt;
+                 232,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 405,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 656,8
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 197,4
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -540,6
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 23
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 288,9
+                &lt;/td&gt;
+                &lt;td&gt;
+                 1 785,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 063,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -278,6
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;th&gt;
+                 24
+                &lt;/th&gt;
+                &lt;td&gt;
+                 150,33
+                &lt;/td&gt;
+                &lt;td&gt;
+                 3 504,0
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 032,7
+                &lt;/td&gt;
+                &lt;td&gt;
+                 2 524,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -491,9
+                &lt;/td&gt;
+               &lt;/tr&gt;
+               &lt;tr&gt;
+                &lt;td&gt;
+                 Celkem
+                &lt;/td&gt;
+                &lt;td&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                 73 167,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 34 161,6
+                &lt;/td&gt;
+                &lt;td&gt;
+                 45 542,3
+                &lt;/td&gt;
+                &lt;td&gt;
+                 -11 380,7
+                &lt;/td&gt;
+               &lt;/tr&gt;
+              &lt;/tbody&gt;
+             &lt;/table&gt;
+             &lt;!-- notes and attachments --&gt;
+             &lt;div class="report_attachment_container"&gt;
+              &lt;p&gt;
+               BASE LOAD (0:00 - 24:00)
+              &lt;/p&gt;
+              &lt;p&gt;
+               PEAK LOAD (8:00 - 20:00)
+              &lt;/p&gt;
+              &lt;p&gt;
+               OFFPEAK LOAD (0:00 - 8:00, 20:00 - 24:00)
+              &lt;/p&gt;
+             &lt;/div&gt;
+             &lt;div class="report_attachment_container"&gt;
+              &lt;p class="report_attachment_links"&gt;
+               &lt;a href="/pubweb/attachments/01/2023/month12/day24/DT_24_12_2023_CZ.xls"&gt;
+                DT_24_12_2023_CZ.xls (37.0 KB)
+               &lt;/a&gt;
+               &lt;a href="/pubweb/attachments/01/2023/Kurzovni_listek_CNB_2023.xls"&gt;
+                Kurzovni_listek_CNB_2023.xls (72.5 KB)
+               &lt;/a&gt;
+              &lt;/p&gt;
+              &lt;p class="annual_report_link"&gt;
+               &lt;a href="/cs/statistika/rocni-zprava"&gt;
+                Roční přehled zveřejňovaných dat naleznete v části Roční zpráva
+               &lt;/a&gt;
+              &lt;/p&gt;
+             &lt;/div&gt;
+            &lt;/div&gt;
+           &lt;/div&gt;
+           &lt;input name="form_submitted" type="hidden" value="1"/&gt;
+          &lt;/div&gt;
+         &lt;/section&gt;
+         &lt;section id="viewlet-below-content-body"&gt;
+          &lt;div class="visualClear"&gt;
+           &lt;!-- --&gt;
+          &lt;/div&gt;
+          &lt;div class="documentActions"&gt;
+          &lt;/div&gt;
+         &lt;/section&gt;
+        &lt;/article&gt;
+        &lt;!--                 &lt;metal:sub define-slot="sub" tal:content="nothing"&gt;
+                   This slot is here for backwards compatibility only.
+                   Don't use it in your custom templates.
+                &lt;/metal:sub&gt; --&gt;
+       &lt;/div&gt;
+       &lt;footer&gt;
+        &lt;div id="viewlet-below-content"&gt;
+        &lt;/div&gt;
+       &lt;/footer&gt;
+      &lt;/article&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="row footer"&gt;
+    &lt;div class="container"&gt;
+     &lt;div class="content"&gt;
+      &lt;div class="navigation"&gt;
+       &lt;div class="subtitle" id="footer-portal-globalnav-title"&gt;
+        Navigace
+       &lt;/div&gt;
+       &lt;ul id="footer-portal-globalnav"&gt;
+        &lt;li id="portaltab-index_html"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs" title=""&gt;
+          &lt;i class="fa fa-home"&gt;
+          &lt;/i&gt;
+          &lt;span&gt;
+           Úvod
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-o-spolecnosti"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/o-spolecnosti" title=""&gt;
+          &lt;span&gt;
+           O společnosti
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-registrace-a-smlouvy"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/registrace-a-smlouvy" title=""&gt;
+          &lt;span&gt;
+           Smluvní partneři
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-risk-management"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/risk-management" title=""&gt;
+          &lt;span&gt;
+           Risk management
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="selected" id="portaltab-kratkodobe-trhy"&gt;
+         &lt;a class="active" href="https://www.ote-cr.cz/cs/kratkodobe-trhy" title=""&gt;
+          &lt;span&gt;
+           Krátkodobé trhy
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-statistika"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/statistika" title=""&gt;
+          &lt;span&gt;
+           Statistika
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-dokumentace"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/dokumentace" title=""&gt;
+          &lt;span&gt;
+           Dokumentace
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-zaruky-puvodu-a-povolenky"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/zaruky-puvodu-a-povolenky" title=""&gt;
+          &lt;span&gt;
+           Záruky původu a povolenky
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-poze"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/poze" title=""&gt;
+          &lt;span&gt;
+           Podpora a výrobní zdroje
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-Pro media"&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/Pro%20media" title=""&gt;
+          &lt;span&gt;
+           Pro média
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+       &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="quick" id="footer-site-actions"&gt;
+       &lt;div class="subtitle"&gt;
+        Důležité odkazy
+       &lt;/div&gt;
+       &lt;ul id="footer-site-actions-list"&gt;
+        &lt;li&gt;
+         &lt;a href="/cs/o-spolecnosti/rss"&gt;
+          RSS
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+         &lt;a href="/cs/o-spolecnosti/kontakt"&gt;
+          Kontakty
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/dokumentace/zasady-pouzivani"&gt;
+          Zásady používání
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/o-spolecnosti/ochrana-osobnich-udaju"&gt;
+          Ochrana osobních údajů
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+         &lt;a href="https://www.ote-cr.cz/cs/sitemap"&gt;
+          Mapa stránek
+         &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li id="portaltab-cookies"&gt;
+         &lt;a href="#portaltab-cookies-link" id="portaltab-cookies-link"&gt;
+          &lt;span&gt;
+           Nastavení cookies
+          &lt;/span&gt;
+         &lt;/a&gt;
+        &lt;/li&gt;
+       &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div id="footer-portal-mob-apps"&gt;
+       &lt;div id="footer-portal-mob-apps-content"&gt;
+        &lt;a class="logo app-gas-mob" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/plyn/mobilni-aplikace-ote-vdt-plyn" id="footer-portal-mob-app-gas"&gt;
+         &lt;div class="logo-app-gas-mob logo-app-gas-mob-cs"&gt;
+         &lt;/div&gt;
+         &lt;div class="text-app-gas-mob"&gt;
+          Vnitrodenní trh s plynem
+         &lt;/div&gt;
+         &lt;div class="clear"&gt;
+         &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;a class="logo app-ele-mob" href="https://www.ote-cr.cz/cs/kratkodobe-trhy/elektrina/mobilni-aplikace-ote-vdt-elektro" id="footer-portal-mob-app-ele"&gt;
+         &lt;div class="logo-app-ele-mob logo-app-ele-mob-cs"&gt;
+         &lt;/div&gt;
+         &lt;div class="text-app-ele-mob"&gt;
+          Vnitrodenní trh s elektřinou
+         &lt;/div&gt;
+         &lt;div class="clear"&gt;
+         &lt;/div&gt;
+        &lt;/a&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="row copyright"&gt;
+    &lt;div class="container text-center"&gt;
+     © OTE, a.s., 2018
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class="cookie-message" id="optCookies"&gt;
+    &lt;div class="container text-center"&gt;
+     &lt;div id="optCookiesLeft"&gt;
+      &lt;div id="optOutCookieText"&gt;
+       Používáme soubory cookies pro správné zobrazení obsahu webu. Setrváním na stránkách vyjadřujete souhlas s
+       &lt;a class="href" href="https://www.ote-cr.cz/cs/dokumentace/zasady-pouzivani"&gt;
+        naší politikou cookies
+       &lt;/a&gt;
+       .
+      &lt;/div&gt;
+      &lt;div id="optOutCookieBttnPanel"&gt;
+       &lt;a class="btn btn-default" id="optOutCookieBttnAgreeNeccessary"&gt;
+        Pouze nezbytné
+       &lt;/a&gt;
+       &lt;a class="btn btn-default" id="optOutCookieBttnAgreeAll"&gt;
+        Přijmout všechny
+       &lt;/a&gt;
+      &lt;/div&gt;
+     &lt;/div&gt;
+     &lt;div id="optCookiesRight"&gt;
+      &lt;img id="optOutCookieCloseImage" src="++theme++pubweb-theme/images/transparent-icon-close-icon.png" title="Zavřít"/&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+</content></html_data>
