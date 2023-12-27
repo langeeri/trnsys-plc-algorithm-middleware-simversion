@@ -4,10 +4,9 @@ import logging
 import subprocess
 import time as osTime
 from typing import Dict, List, Union
-from modbus_handler import define_modbus_servers
+from modbus import define_modbus_servers
 from modbus_servers_config import MODBUS_SERVER_CONFIGS
-from xml_server_config import XML_SUBPROCESS_CONFIG
-from main_config import SIM_SLEEP, SIMULATION_MODEL, LOGGING_FILENAME
+from main_config import SIM_SLEEP, SIMULATION_MODEL, LOGGING_FILENAME, SUBPROCESS_CONFIG
 
 # --------------------------------------------------------------------------
 
@@ -42,7 +41,7 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
 
     """
 
-    global modbus_servers, xml_server_process
+    global modbus_servers, webserver_process
 
     logging.basicConfig(filename=LOGGING_FILENAME, level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
 
@@ -59,9 +58,9 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
             modbus_server.close_connection_modbus()
 
     try:
-        xml_server_process = subprocess.Popen([XML_SUBPROCESS_CONFIG["interpreter"], XML_SUBPROCESS_CONFIG["filename"]])
+        webserver_process = subprocess.Popen([SUBPROCESS_CONFIG["interpreter"], SUBPROCESS_CONFIG["filename"]])
     except Exception as e:
-        logging.error(f"Error starting XML server subprocess: {e}")
+        logging.error(f"Error starting OTE server subprocess: {e}")
 
     return
     
@@ -209,7 +208,7 @@ def LastCallOfSimulation(TRNData: Dict[str, Dict[str, List[Union[int, float]]]])
         logging.error(f"Error during the last call of simulation - modbus: {e}")
         raise
 
-    if xml_server_process:
-        xml_server_process.terminate()
+    if webserver_process:
+        webserver_process.terminate()
 
     return
