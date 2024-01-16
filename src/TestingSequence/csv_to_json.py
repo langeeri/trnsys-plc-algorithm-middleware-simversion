@@ -7,7 +7,7 @@ from datetime import datetime
 script_directory = os.path.dirname(os.path.realpath(__file__))
 
 # Specify the CSV file path
-csv_file_path = os.path.join(script_directory, 'case_varPrice_Lday_1.csv')
+csv_file_path = os.path.join(script_directory, 'case_varPrice_Hday_3.csv')
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(csv_file_path)
@@ -46,7 +46,7 @@ result_json = {
 }
 
 # Specify the output file path
-output_file_path = os.path.join(script_directory, 'case_varPrice_Lday_1_hourly_meteo.json')
+output_file_path = os.path.join(script_directory, 'case_varPrice_Hday_3_hourly_meteo.json')
 
 # Write the formatted JSON to the output file
 with open(output_file_path, 'w') as output_file:
