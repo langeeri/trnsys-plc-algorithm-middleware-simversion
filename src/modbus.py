@@ -4,6 +4,8 @@ from pymodbus.client import ModbusTcpClient
 from pymodbus.payload import BinaryPayloadBuilder, Endian
 from typing import Dict, List, Union, Optional
 from main_config import SIMULATION_MODEL
+from modbus_servers_config import RW_REGISTER_L1,RW_REGISTER_L2,RW_REGISTER_L3,RW_REGISTER_HDO
+
 
 
 class ModbusServer:
@@ -103,13 +105,20 @@ class ModbusServer:
             builder.reset()
 
             for index, value in enumerate(inputs):
-                inputConverted = int(value * 10)
+                if (index == (RW_REGISTER_L1-1) or index == (RW_REGISTER_L2-1) or index == (RW_REGISTER_L3-1) or index == (RW_REGISTER_HDO-1)):
+                    inputConverted = round(value)
+                else:
+                    inputConverted = int(value * 10)
                 builder.add_16bit_int(inputConverted)
 
             payload = builder.to_registers()
+            logging.info(f"payload: {payload}")
+
 
             for indexRW, addressRW in enumerate(self.rw_registers):
-                result = client.write_registers(addressRW-1, payload[indexRW])  # starts from 0
+                logging.info(f"Index: {indexRW} payload: {payload[indexRW]} address: {addressRW-1}")
+
+                result = client.write_registers(addressRW-1, payload[indexRW])  # payload starts from 0
                 if result.isError():
                     logging.error(f"Error writing to PLC register for {self.host}:{self.port}: {result}")
                 else:
@@ -140,13 +149,16 @@ class ModbusServer:
         
         try: 
             for addressR in self.r_registers:
-                responseR = self.client.read_holding_registers(addressR-1)
+                responseR = self.client.read_holding_registers(addressR)
                 registerValue = responseR.getRegister(0)
                 arrayOfResponses.append(registerValue)
+                logging.info(f"array of responses: {arrayOfResponses}")
+
 
             # Send response to TRNSYS.
             for indexR, addressR in enumerate(self.r_registers):
                 TRNData[SIMULATION_MODEL]["outputs"][indexR] = arrayOfResponses[indexR]
+
 
         except Exception as e:
             logging.error(f"Error writing to TRNSYS from {self.host}:{self.port}: {e}")

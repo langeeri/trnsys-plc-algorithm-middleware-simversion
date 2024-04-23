@@ -1,15 +1,16 @@
-# -*- coding: utf-8 -*-
-
+import os
 import logging
 import subprocess
 import time as osTime
 from typing import Dict, List, Union
+from webserver_config import *
+from webserver import WebServer  # Import WebServer class
 from modbus import define_modbus_servers
 from modbus_servers_config import MODBUS_SERVER_CONFIGS
 from main_config import SIM_SLEEP, SIMULATION_MODEL, LOGGING_FILENAME, SUBPROCESS_CONFIG
 
-# --------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------
 
 def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> None:
     """
@@ -41,9 +42,9 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
 
     """
 
-    global modbus_servers, webserver_process
+    global modbus_servers, webserver, webserver_process
 
-    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
+    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.ERROR, format='%(asctime)s [%(levelname)s] %(message)s')
 
     try:
         modbus_servers_configs = MODBUS_SERVER_CONFIGS  
@@ -58,9 +59,11 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
             modbus_server.close_connection_modbus()
 
     try:
-        webserver_process = subprocess.Popen([SUBPROCESS_CONFIG["interpreter"], SUBPROCESS_CONFIG["filename"]])
+        # Start the web server subprocess
+        webserver = WebServer(WEBSERVER_CONFIG['host'], WEBSERVER_CONFIG['port'])
+        webserver_process = subprocess.Popen(["python", "webserver.py"])  # Start the web server as a subprocess
     except Exception as e:
-        logging.error(f"Error starting OTE server subprocess: {e}")
+        logging.error(f"Error starting web server subprocess: {e}")
 
     return
     
@@ -144,23 +147,37 @@ def EndOfTimeStep(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> Non
     """
     
     try:
-    
         for modbus_server in modbus_servers:
             TRNinputs = TRNData[SIMULATION_MODEL]["inputs"]
+            logging.info(f"TRNinputs: {TRNinputs}")
+
             server_inputs = []
 
             for index in modbus_server.input_indexes:
-                if 0 < index < len(TRNinputs):
-                    server_inputs.append(TRNinputs[index])
+                server_inputs.append(TRNinputs[index])
             modbus_server.write_inputs_modbus(server_inputs)
 
             if modbus_server.r_registers:
                 modbus_server.read_outputs_modbus(TRNData)
         
-        logging.info(f"server_inputs: {server_inputs}")
+        #logging.info(f"server_inputs: {server_inputs}")
 
     except Exception as e:
         logging.error(f"Error during EndOfTimeStep: {e}")
+    
+    try:
+        # Retrieve simulation time from TRNinputs
+        simulation_time = TRNData[SIMULATION_MODEL]["inputs"][13]
+        simulation_day = TRNData[SIMULATION_MODEL]["inputs"][15]
+
+
+        # Update simulation time in the web server
+        if webserver:
+            webserver.update_simulation_time(simulation_time,simulation_day)
+        else:
+            logging.error("Web server is not initialized.")
+    except Exception as e:
+        logging.error(f"Error updating simulation time in web server: {e}")
 
     osTime.sleep(SIM_SLEEP)
 
@@ -201,14 +218,14 @@ def LastCallOfSimulation(TRNData: Dict[str, Dict[str, List[Union[int, float]]]])
     try:
         for modbus_server in modbus_servers:
             modbus_server.close_connection_modbus()
+
+        if webserver_process:
+            webserver_process.terminate() 
         
         logging.shutdown()
 
     except Exception as e:
         logging.error(f"Error during the last call of simulation - modbus: {e}")
         raise
-
-    if webserver_process:
-        webserver_process.terminate()
 
     return

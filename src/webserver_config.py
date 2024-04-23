@@ -4,10 +4,19 @@ WEBSERVER_CONFIG = {
         "port": 5000,
     }
 
-OTE_SOURCEFILE_PATH_TEMPLATE = "TestingSequence/case_fixPriceday_{}_hourly.html"
-METEO_SOURCEFILE_PATH_TEMPLATE = "TestingSequence/case_fixPriceday_{}_hourly_meteo.json"
 
-GET_OTE_PATH = '/get_ote_data'
-GET_METEO_PATH = '/get_meteo_data'
+DIRECTORY_PATH_OTE = 'TestingSequenceOTE_all/'
+DIRECTORY_PATH_METEO = 'TestingSequenceMeteo_all/'
 
 FAVICON_SOURCE = 'static/favicon.ico'
+
+ENDPOINT = "/v1/forecast"
+LATITUDE = "50.088"
+LONGITUDE = "14.420"
+PARAMS = "hourly=temperature_2m,shortwave_radiation&timeformat=unixtime"
+
+# OpenMeteo path
+GET_METEO_PATH = f"{ENDPOINT}?latitude={LATITUDE}&longitude={LONGITUDE}&{PARAMS}"
+
+# OTE path
+GET_OTE_PATH = '/get_ote_data'
