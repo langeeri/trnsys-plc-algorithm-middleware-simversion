@@ -1,5 +1,6 @@
 import os
 import logging
+import requests
 import subprocess
 import time as osTime
 from typing import Dict, List, Union
@@ -44,7 +45,7 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
 
     global modbus_servers, webserver, webserver_process
 
-    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.ERROR, format='%(asctime)s [%(levelname)s] %(message)s')
+    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
 
     try:
         modbus_servers_configs = MODBUS_SERVER_CONFIGS  
@@ -145,7 +146,7 @@ def EndOfTimeStep(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> Non
     values provided in 'TRNData'.
 
     """
-    
+            
     try:
         for modbus_server in modbus_servers:
             TRNinputs = TRNData[SIMULATION_MODEL]["inputs"]
@@ -160,26 +161,28 @@ def EndOfTimeStep(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> Non
             if modbus_server.r_registers:
                 modbus_server.read_outputs_modbus(TRNData)
         
-        #logging.info(f"server_inputs: {server_inputs}")
-
     except Exception as e:
         logging.error(f"Error during EndOfTimeStep: {e}")
-    
-    try:
-        # Retrieve simulation time from TRNinputs
-        simulation_time = TRNData[SIMULATION_MODEL]["inputs"][13]
-        simulation_day = TRNData[SIMULATION_MODEL]["inputs"][15]
 
 
-        # Update simulation time in the web server
-        if webserver:
-            webserver.update_simulation_time(simulation_time,simulation_day)
-        else:
-            logging.error("Web server is not initialized.")
-    except Exception as e:
-        logging.error(f"Error updating simulation time in web server: {e}")
+    def send_simulation_data(simulation_time, simulation_day):
+        try:
+            data = {'time': simulation_time, 'day': simulation_day}
+            response = requests.put('http://127.0.0.1:5000/simulation-data', json=data)
+            if response.status_code != 200:
+                logging.error(f"Failed to send simulation data: {response.status_code}")
+        except Exception as e:
+            logging.error(f"Error sending simulation data: {e}")
+
+    simulation_time = TRNData[SIMULATION_MODEL]["inputs"][13]
+    simulation_day = TRNData[SIMULATION_MODEL]["inputs"][15]
+
+    # Send simulation data (time and day) via PUT request
+    send_simulation_data(simulation_time, simulation_day)
+
 
     osTime.sleep(SIM_SLEEP)
+
 
 # --------------------------------------------------------------------------------
 

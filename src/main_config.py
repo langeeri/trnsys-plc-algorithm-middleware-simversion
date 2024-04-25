@@ -1,7 +1,7 @@
 
 # constants
 
-SIM_SLEEP = 1
+SIM_SLEEP = 0
 LOGGING_FILENAME = 'DataExchange.log'
 SIMULATION_MODEL = 'main'
 
