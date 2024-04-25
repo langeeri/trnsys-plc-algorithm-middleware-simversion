@@ -45,7 +45,7 @@ def Initialization(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> No
 
     global modbus_servers, webserver, webserver_process
 
-    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.DEBUG, format='%(asctime)s [%(levelname)s] %(message)s')
+    logging.basicConfig(filename=LOGGING_FILENAME, level=logging.ERROR, format='%(asctime)s [%(levelname)s] %(message)s')
 
     try:
         modbus_servers_configs = MODBUS_SERVER_CONFIGS  
