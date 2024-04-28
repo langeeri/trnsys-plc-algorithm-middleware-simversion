@@ -5,9 +5,6 @@ WEBSERVER_CONFIG = {
     }
 
 
-DIRECTORY_PATH_OTE = 'TestingSequenceOTE_all/'
-DIRECTORY_PATH_METEO = 'TestingSequenceMeteo_all/'
-
 FAVICON_SOURCE = 'static/favicon.ico'
 
 ENDPOINT = "/v1/forecast"
@@ -20,3 +17,7 @@ GET_METEO_PATH = f"{ENDPOINT}?latitude={LATITUDE}&longitude={LONGITUDE}&{PARAMS}
 
 # OTE path
 GET_OTE_PATH = '/get_ote_data'
+
+XLS_DIRECTORY_PATH = 'TestingSequence/'
+
+XLS_FILE_NAME = 'case_varPrice_Hday_1_hourly.xlsx'

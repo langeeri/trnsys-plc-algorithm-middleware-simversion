@@ -1,4 +1,3 @@
-import os
 import logging
 import requests
 import subprocess
@@ -8,7 +7,7 @@ from webserver_config import *
 from webserver import WebServer  # Import WebServer class
 from modbus import define_modbus_servers
 from modbus_servers_config import MODBUS_SERVER_CONFIGS
-from main_config import SIM_SLEEP, SIMULATION_MODEL, LOGGING_FILENAME, SUBPROCESS_CONFIG
+from main_config import SIM_SLEEP, SIMULATION_MODEL, LOGGING_FILENAME, PUT_REQUEST_ENDPOINT
 
 
 # --------------------------------------------------------------------------
@@ -168,7 +167,7 @@ def EndOfTimeStep(TRNData: Dict[str, Dict[str, List[Union[int, float]]]]) -> Non
     def send_simulation_data(simulation_time, simulation_day):
         try:
             data = {'time': simulation_time, 'day': simulation_day}
-            response = requests.put('http://127.0.0.1:5000/simulation-data', json=data)
+            response = requests.put(PUT_REQUEST_ENDPOINT, json=data)
             if response.status_code != 200:
                 logging.error(f"Failed to send simulation data: {response.status_code}")
         except Exception as e:

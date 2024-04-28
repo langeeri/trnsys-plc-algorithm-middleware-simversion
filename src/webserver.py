@@ -55,8 +55,13 @@ class HttpRequestHandler(BaseHTTPRequestHandler):
         global simulation_time  # Access the global simulation time variable
         global simulation_day
 
+        if 'simulation_time' not in globals():
+            simulation_time = 0
+        if 'simulation_day' not in globals():
+            simulation_day = 0
+
         # Load the Excel file
-        excel_file_path = os.path.join(os.path.dirname(__file__), 'OTE_source.xlsx')
+        excel_file_path = os.path.join(os.path.dirname(XLS_DIRECTORY_PATH), XLS_FILE_NAME)
         df = pd.read_excel(excel_file_path)
 
         # Find the index corresponding to the simulation time
@@ -64,9 +69,9 @@ class HttpRequestHandler(BaseHTTPRequestHandler):
         simulation_day = int(simulation_day)
 
         if simulation_time <= 14:
-            start_index = (simulation_day - 1) * 24  
+            start_index = (simulation_day - 1) * 24   # Adjusting for zero-based indexing
         else:
-            start_index = simulation_day * 24  
+            start_index = simulation_day * 24  # Adjusting for zero-based indexing
 
         end_index = start_index + 24  
 
@@ -110,7 +115,7 @@ class HttpRequestHandler(BaseHTTPRequestHandler):
                     {
                         "bold": False,
                         "colour": "A04000",
-                        "point": [{"x": str(hour + 1), "y": float(row['el_spot'])} for hour, row in chunk.iterrows()],
+                        "point": [{"x": str(hour + 1), "y": float(row['price'])} for hour, row in chunk.iterrows()],
                         "title": "Price (EUR/MWh)",
                         "tooltip": "Price",
                         "tooltipDecimalsY": 2,
@@ -133,9 +138,14 @@ class HttpRequestHandler(BaseHTTPRequestHandler):
     def create_meteo_payload(self):
         global simulation_time
         global simulation_day
+
+        if 'simulation_time' not in globals():
+            simulation_time = 0
+        if 'simulation_day' not in globals():
+            simulation_day = 0
         
         # Load the Excel file
-        excel_file_path = os.path.join(os.path.dirname(__file__), 'TMY_source.xlsx')
+        excel_file_path = os.path.join(os.path.dirname(XLS_DIRECTORY_PATH), XLS_FILE_NAME)
         df = pd.read_excel(excel_file_path)
 
         # Find the index corresponding to the simulation time
@@ -166,9 +176,9 @@ class HttpRequestHandler(BaseHTTPRequestHandler):
                 "shortwave_radiation": "W/m\u00b2"
             },
             "hourly": {
-                "time": [int(pd.Timestamp(dt).timestamp()) for dt in chunk['TIME']],
-                "temperature_2m": [float(str(temp).replace(',', '.')) for temp in chunk['Temperature']],
-                "shortwave_radiation": [float(str(rad).replace(',', '.')) for rad in chunk['Total_global_horizontal_r']]
+                "time": [int(pd.Timestamp(dt).timestamp()) for dt in chunk['dy']],
+                "temperature_2m": [float(str(temp).replace(',', '.')) for temp in chunk['Ta']],
+                "shortwave_radiation": [float(str(rad).replace(',', '.')) for rad in chunk['G_Gh_hr']]
             }
         }
 
