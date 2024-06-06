@@ -20,4 +20,4 @@ GET_OTE_PATH = '/get_ote_data'
 
 XLS_DIRECTORY_PATH = 'TestingSequence/'
 
-XLS_FILE_NAME = 'case_varPrice_Hday_1_hourly.xlsx'
+XLS_FILE_NAME = 'case_varPrice_Hday_3_hourly.xlsx'
